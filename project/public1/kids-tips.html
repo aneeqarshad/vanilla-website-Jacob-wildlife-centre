@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Wildlife Tips</title>
+<link rel="icon" href="images/icons/icon-192x192.png" type="image/png">
+
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/kids.css">
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header class="top-nav">
+  <div class="logo-container">
+    <img src="images/logo.png" alt="Jacob Wildlife Centre Logo" class="logo">
+    <h1>Jacob Wildlife Centre</h1>
+  </div>
+</header>
+
+<nav class="tablet-nav tablet-only">
+    <a href="index.html">Home</a>
+    <a href="animals.html">Animals</a>
+    <a href="map.html">Map</a>
+    <a href="favourites.html">Favourites</a>
+</nav>
+
+<a href="index.html" class="back-btn">← Back to Home</a>
+
+<main>
+    <section class="kids-section">
+        <h2 class="section-title">Fun Wildlife Tips for Kids</h2>
+        <p class="section-description">
+            Here are some fun ways you can help wildlife, learn about animals, and become a nature hero!
+        </p>
+
+
+        <div class="tips-list">
+            <div class="tip" style="background-color: #FFEB3B;">
+                <div class="tip-content">
+                    <img src="images/tips/bird-feeder.jpg" alt="Bird Feeder" class="tip-image">
+                    <div class="tip-text">
+                        <h3>1. Build a Bird Feeder</h3>
+                        <p>Help birds find food during the winter by making a simple bird feeder using peanut butter and seeds!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tip" style="background-color: #81C784;">
+                <div class="tip-content">
+                    <img src="images/tips/wildlife-garden.jpg" alt="Wildlife Garden" class="tip-image">
+                    <div class="tip-text">
+                        <h3>2. Create a Wildlife Garden</h3>
+                        <p>Plant flowers, shrubs, and trees to attract insects and birds to your garden. They’ll love it!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tip" style="background-color: #FF7043;">
+                <div class="tip-content">
+                    <img src="images/tips/save-water.jpg" alt="Save Water" class="tip-image">
+                    <div class="tip-text">
+                        <h3>3. Save Water for Animals</h3>
+                        <p>Make sure to leave out a shallow bowl of water for animals to drink, especially in hot weather!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tip" style="background-color: #64B5F6;">
+                <div class="tip-content">
+                    <img src="images/tips/hedgehog-help.jpg" alt="Help Hedgehogs" class="tip-image">
+                    <div class="tip-text">
+                        <h3>4. Help Hedgehogs</h3>
+                        <p>If you see a hedgehog in your garden, make sure it's safe! Build a little shelter and leave food out for them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="activity">
+  <h3>Fun Activity: Draw Your Favorite Animal!</h3>
+
+  <img
+    src="images/tips/fun-activity.jpg"
+    alt="Children drawing animals"
+    class="activity-img"
+  >
+
+  <p>
+    Pick your favorite animal from the list below and draw it!
+    Don’t forget to add some cool details like fur, feathers, or scales!
+  </p>
+
+            <ul class="animal-list">
+                <li>Red Fox</li>
+                <li>Hedgehog</li>
+                <li>Barn Owl</li>
+                <li>Otter</li>
+            </ul>
+        </section>
+        <!-- Camera Activity -->
+<section class="activity" id="cameraActivity">
+  <h3>Wildlife Spotter Camera</h3>
+  <p>Take a photo safely. Never approach wildlife—use zoom and keep your distance.</p>
+
+<img
+  id="cameraPlaceholder"
+  src="images/tips/camera-placeholder.jpg"
+  alt="Tap start camera to take a wildlife photo"
+>
+
+<video id="video" autoplay playsinline style="display:none;"></video>
+
+<img
+  id="photo"
+  alt="Your captured photo will appear here"
+  style="display:none;"
+>
+
+
+  <div class="camera-buttons">
+    <button id="startBtn" class="kids-btn">Start Camera</button>
+    <button id="snapBtn" class="kids-btn" disabled>Take Photo</button>
+    <button id="stopBtn" class="kids-btn" disabled>Stop</button>
+  </div>
+
+  <p id="camStatus"></p>
+</section>
+
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="copyright">
+    <p>© 2025 Jacob Wildlife Centre • All rights reserved.</p>
+</footer>
+<nav class="bottom-nav mobile-only">
+    <a href="index.html">Home</a>
+    <a href="animals.html">Animals</a>
+    <a href="map.html">Map</a>
+    <a href="favourites.html">Favourites</a>
+</nav>
+
+<script src="js/camera.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

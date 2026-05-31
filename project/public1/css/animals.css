@@ -1,0 +1,94 @@
+.animal-list-section {
+    padding: 1rem;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+    color: #3a5a40;
+    text-align: center;
+}
+
+.section-description {
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.animal-grid {
+    display: grid;
+    grid-template-columns: 1fr;  
+    gap: 16px;
+}
+
+
+.animal-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.animal-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;   
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.animal-card h3 {
+    margin: 0.8rem 0 0.4rem;
+    font-size: 1.3rem;
+    color: #2d4739;
+}
+
+.animal-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin: 0 0 0.8rem 0;
+}
+
+.btn-row {
+    margin-top: auto;                  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.details-btn {
+    background: #588157;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.fav-btn {
+    background: #344e41;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+    .animal-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .animal-card img {
+        height: 220px;
+    }
+}

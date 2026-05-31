@@ -1,0 +1,87 @@
+.fav-section {
+    padding: 1rem;
+}
+
+.section-title {
+    text-align: center;
+    color: #3a5a40;
+    font-size: 1.6rem;
+}
+
+.section-description {
+    text-align: center;
+    color: #555;
+    margin-bottom: 1.4rem;
+}
+
+.fav-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.fav-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fav-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.fav-card h3 {
+    margin: 0.8rem 0 0.4rem;
+    font-size: 1.3rem;
+    color: #2d4739;
+}
+
+.fav-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-bottom: 0.8rem;
+}
+
+.btn-row {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-btn {
+    background: #a01818;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.details-btn {
+    background: #588157;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.no-favs-message {
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
+}
+
+@media (min-width: 700px) {
+    .fav-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

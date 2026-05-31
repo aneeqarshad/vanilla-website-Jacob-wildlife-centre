@@ -1,0 +1,206 @@
+
+
+.section-title {
+    font-size: 2.5rem;
+    color: #588157;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.tips-list {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+    grid-template-columns: 1fr;  
+}
+
+.tip {
+    background-color: #FFF;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.tip:hover {
+    transform: scale(1.05);  
+}
+
+.tip-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.tip-image {
+    width: 100%;  
+    height: auto;
+    max-width: 200px; 
+    border-radius: 8px;
+}
+
+.tip-text {
+    text-align: center;
+}
+
+.tip h3 {
+    font-size: 1.5rem;
+    color: #2c6e49;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.tip p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.activity {
+    background: #fff3e0;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.activity h3 {
+    font-size: 2rem;
+    color: #ff6f00;
+    margin-bottom: 1rem;
+}
+
+.animal-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.animal-list li {
+    font-size: 1.1rem;
+    color: #2c6e49;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #588157;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.back-btn:hover {
+    background-color: #467a4d;
+}
+
+@media (min-width: 700px) {       /* Tablet and Desktop Layout (Two Columns) */
+    .kids-section {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .tips-list {
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+    .tip-image {
+        max-width: 250px;  
+    }
+
+    .tip h3 {
+        font-size: 1.8rem;
+    }
+
+    .tip p {
+        font-size: 1.2rem;
+    }
+
+    .activity h3 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .tip-image {
+        max-width: 100%;  /* Mobile Specific Adjustments */
+        height: auto;
+    }
+
+    .tip h3 {
+        font-size: 1.4rem;  
+    }
+
+    .tip p {
+        font-size: 0.9rem;
+    }
+
+    .activity h3 {
+        font-size: 1.8rem;
+    }
+}
+
+.activity-img {
+  width: 100%;
+  max-width: 480px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.camera-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.kids-btn {
+  background: #588157;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#cameraPlaceholder {
+  width: 100%;
+  max-width: 520px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+#video,
+#photo {
+  width: 100%;
+  max-width: 520px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

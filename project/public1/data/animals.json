@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Red Fox",
+    "emoji": "🦊",
+    "lat": 53.5080,
+    "lon": -3.0600,
+    "image": "images/animals/fox.jpg",
+    "description": "Red foxes are adaptable animals often rescued after road accidents or injury. They are rehabilitated in quiet woodland-style enclosures."
+  },
+  {
+    "id": 2,
+    "name": "Hedgehog",
+    "emoji": "🦔",
+    "lat": 53.5072,
+    "lon": -3.0612,
+    "image": "images/animals/hedgehog.jpg",
+    "description": "Hedgehogs are rescued after garden accidents or illness and are cared for before being released into safe habitats."
+  },
+  {
+    "id": 3,
+    "name": "Barn Owl",
+    "emoji": "🦉",
+    "lat": 53.5086,
+    "lon": -3.0610,
+    "image": "images/animals/owl.jpg",
+    "description": "Barn owls are treated for wing injuries and assessed for flight before being released near open countryside."
+  },
+  {
+    "id": 4,
+    "name": "Badger",
+    "emoji": "🦡",
+    "lat": 53.5069,
+    "lon": -3.0601,
+    "image": "images/animals/badger.jpg",
+    "description": "Badgers recover in quiet, underground-style enclosures before returning to woodland environments."
+  },
+  {
+    "id": 5,
+    "name": "Otter",
+    "emoji": "🦦",
+    "lat": 53.5106,
+    "lon": -3.0672,
+    "image": "images/animals/otter.jpg",
+    "description": "Otters are rehabilitated near water and trained in swimming and fishing skills before release."
+  },
+  {
+    "id": 6,
+    "name": "Red Squirrel",
+    "emoji": "🐿️",
+    "lat": 53.5078,
+    "lon": -3.0594,
+    "image": "images/animals/redsquirrel.jpg",
+    "description": "Red squirrels are a protected species and are cared for in woodland enclosures to encourage natural behaviours."
+  },
+  {
+    "id": 7,
+    "name": "Roe Deer",
+    "emoji": "🦌",
+    "lat": 53.5063,
+    "lon": -3.0618,
+    "image": "images/animals/deer.jpg",
+    "description": "Roe deer recover in large outdoor paddocks to regain strength and mobility before release."
+  },
+  {
+    "id": 8,
+    "name": "Grey Seal",
+    "emoji": "🦭",
+    "lat": 53.5149,
+    "lon": -3.0684,
+    "image": "images/animals/seal.jpg",
+    "description": "Grey seals are rescued when stranded on beaches and rehabilitated before being returned to the sea."
+  },
+  {
+    "id": 9,
+    "name": "Mallard Duck",
+    "emoji": "🦆",
+    "lat": 53.5088,
+    "lon": -3.0639,
+    "image": "images/animals/mallard.jpg",
+    "description": "Mallard ducks are cared for near ponds and wetland areas before being released."
+  },
+  {
+    "id": 10,
+    "name": "Mute Swan",
+    "emoji": "🦢",
+    "lat": 53.5092,
+    "lon": -3.0644,
+    "image": "images/animals/muteswan.jpg",
+    "description": "Mute swans are treated for fishing line injuries and gradually reintroduced to water environments."
+  }
+]
